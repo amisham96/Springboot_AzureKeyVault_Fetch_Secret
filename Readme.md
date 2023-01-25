@@ -1,21 +1,21 @@
 Step1
 ------
 //Getting List of Subscriptions
-az account list
+"az account list"
 
 
 
 Step2
 ------
 //Setting the perticular Subscription
-az account set -s ssssssss-ssss-ssss-ssss-ssssssssssss
+"az account set -s ssssssss-ssss-ssss-ssss-ssssssssssss"
 
 
 
 Step3
 ------
 //Creating service principal 
-az ad sp create-for-rbac --name myapp --role Contributor --scopes /subscriptions/mySubscriptionID
+"az ad sp create-for-rbac --name myapp --role Contributor --scopes /subscriptions/mySubscriptionID"
 
 	-> Go to Active Directory and select your service principal app and store below details:
 	   Your Client_ID
