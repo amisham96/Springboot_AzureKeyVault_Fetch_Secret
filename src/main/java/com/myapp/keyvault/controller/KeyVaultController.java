@@ -12,7 +12,7 @@ public class KeyVaultController {
 
 	@GetMapping("/getsecret")
 	public String get() {
-		return "Your Stored Secret is " + connectionString;
+		return "Your Stored Secret Key is " + connectionString;
 	}
 
 }
