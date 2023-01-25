@@ -25,6 +25,8 @@ Step3
 
 Step4
 ------
+Follow Below Steps:
+
 -> Create Resource Group in Azure Portal
 
 -> Create KeyVault in Azure Portal by selecting resource group
@@ -44,7 +46,7 @@ Step5
 Now Copy Your Client_ID, Your Client_Secret_Value, Your Tenant_ID and Key Vault URL in Spring Boot application
 Under resources folder in application.properties file like below
 
-spring.cloud.azure.keyvault.secret.property-sources[0].credential.client-id=Client_ID
-spring.cloud.azure.keyvault.secret.property-sources[0].credential.client-secret=Client_Secret
-spring.cloud.azure.keyvault.secret.property-sources[0].endpoint=KeyVault_URL
-spring.cloud.azure.keyvault.secret.property-sources[0].profile.tenant-id=Tenant_ID
+	spring.cloud.azure.keyvault.secret.property-sources[0].credential.client-id=Client_ID
+	spring.cloud.azure.keyvault.secret.property-sources[0].credential.client-secret=Client_Secret
+	spring.cloud.azure.keyvault.secret.property-sources[0].endpoint=KeyVault_URL
+	spring.cloud.azure.keyvault.secret.property-sources[0].profile.tenant-id=Tenant_ID
